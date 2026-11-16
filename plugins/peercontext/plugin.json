@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "peercontext",
+  "version": "0.1.0",
+  "description": "Use your team's shared Markdown memory from Codex through the local PeerContext app.",
+  "author": {
+    "name": "PeerContext",
+    "url": "https://peercontext.com"
+  },
+  "homepage": "https://peercontext.com",
+  "repository": "https://github.com/kpourdeilami/peercontext-codex",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PeerContext",
+        "shortDescription": "Read and contribute to your team's shared memory",
+        "category": "Productivity"
+      }
+    }
+  }
+}

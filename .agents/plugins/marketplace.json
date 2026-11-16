@@ -1,0 +1,20 @@
+{
+  "name": "peercontext",
+  "interface": {
+    "displayName": "PeerContext"
+  },
+  "plugins": [
+    {
+      "name": "peercontext",
+      "source": {
+        "source": "local",
+        "path": "./plugins/peercontext"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
