@@ -8,7 +8,7 @@
     "url": "https://peercontext.com"
   },
   "homepage": "https://peercontext.com",
-  "repository": "https://github.com/kpourdeilami/peercontext-codex",
+  "repository": "https://github.com/peercontext/peercontext-codex",
   "extensions": {
     "com.openai": {
       "interface": {
