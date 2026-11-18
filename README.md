@@ -36,7 +36,7 @@ If an existing PeerContext service is already running, keep using it.
 ## Install the Codex plugin
 
 ```sh
-codex plugin marketplace add kpourdeilami/peercontext-codex
+codex plugin marketplace add peercontext/peercontext-codex
 codex plugin add peercontext@peercontext
 ```
 
